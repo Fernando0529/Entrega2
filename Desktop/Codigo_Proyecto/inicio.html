@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="diseñoInicio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <title>INICIO</title>
+<head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="./inicio.html">
+              <img id="grupoCero" src="IMG/GRUPO CERO.PNG" alt="logo_empresa">
+
+            </a>
+            
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a id="inicio" class="nav-link" href="./inicio.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a id="obras" class="nav-link" href="./pinturas.html">OBRAS</a>
+              </li>
+              <li class="nav-item">
+                <a id="actores" class="nav-link" href="./actores.html">ACTORES</a>
+              </li>
+            </ul>
+           <a class="navbar-brand" href="#">
+              <img id="config" src="img/configuraciones.png" alt="logo_empresa">
+           </a>
+            <a class="navbar-brand" href="./preguntasFrecuentes.html">
+              <img id="ayuda" src="img/informacion.PNG" alt="logo_empresa">
+           </a>
+           <a class="navbar-brand" href="./index.html">
+              <img id="ayuda" src="img/salida.png" alt="logo_empresa">
+           </a>
+           <form class="form-inline" action="/action_page.php">
+            <input id="inpuBuscar"class="form-control mr-sm-2" type="text" placeholder="Buscar">
+            <button class="btn btn-success" type="submit">Buscar</button>
+          </form>
+          </nav>
+          <h3 id="texto1">Obras destacadas</h3>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div id="carrusel" class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="./jockerPalida.html"><img  src="img/imagen1.jpg" alt="Los Angeles" width="900" height="300"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="./jockerPalida.html"><img  src="img/imagen2.jpg" alt="Chicago" width="900" height="300"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="./jockerPalida.html"><img  src="img/imagen3.jpg" alt="New York" width="900" height="300"></a>
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+
+            <div id="masObras2"class="container">
+                <h4 id="masObras">Mas obras:</h4>            
+                <a href="./pinturas.html"><img src="img/imagen10.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"></a> 
+                <a href="./pinturas.html"><img src="img/imagen11.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"></a>
+                <a href="./pinturas.html"><img src="img/imagen12.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"></a>
+                <a href="./pinturas.html"><h5 id="verMas">Ver mas</h5></a>  
+            </div>
+
+        <h3 id="actoress">Actores destacados</h3>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div id="carrusel" class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="./juniorFernandez.html"><img  src="img/imagen21.jpg" alt="Los Angeles" width="300" height="400"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="./juniorFernandez.html"><img  src="img/imagen20.jpg" alt="Chicago" width="300" height="400"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="./juniorFernandez.html"><img  src="img/imagen22.jpg" alt="New York" width="300" height="400"></a>
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+          <div id="masObras1"class="container">
+            <h4 id="masObras">Mas artistas:</h4>           
+            <a href="./actores.html"><img src="img/imagen31.jpg" class="rounded" alt="Cinque Terre" width="200" height="300"></a>
+            <a href="./actores.html"><img src="img/imagen32.jpg" class="rounded" alt="Cinque Terre" width="200" height="300"></a> 
+            <a href="./actores.html"><img src="img/imagen33.jpg" class="rounded" alt="Cinque Terre" width="200" height="300"></a> 
+            <a href="./actores.html"><h5 id="verMas2">Ver mas</h5></a>
+          </div>
+    </body>
+</head>
+<footer>© Derechos Reservados.</footer>
+
+</html>

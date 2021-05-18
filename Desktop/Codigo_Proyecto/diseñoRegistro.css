@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#registroIMG{    
+    margin-left:100px;
+    margin-top: 200px;
+    float: left;
+}
+
+img{
+    width: 700px;
+    height: 330px;
+}
+
+form{
+    font-size: 16px;
+    width: 400px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#nombre{
+    float: left;
+    display: block;
+    
+}
+
+#apellido{
+    margin-left: 145px;
+    float: left;
+    display: block;
+}
+
+#txt1{
+    margin-top: 5px;
+    float: left;
+    display: block;
+    width: 150px;
+}
+
+#txt2{
+    margin-top: 5px;
+    margin-left: 65px;
+    float: left;
+    display: block;
+    width: 150px;
+}
+
+#correoElectro{
+    margin-top: 10px;
+    float: left;
+    display: block;
+}
+
+#nombreUser{
+    margin-top: 10px;
+    margin-left: 55px;
+    float: left;
+    display: block;
+}
+
+#txt3{
+    margin-top: 5px;
+    float: left;
+    display: block;
+    width: 150px;
+}
+
+#txt4{
+    margin-top: 5px;
+    margin-left: 65px;
+    float: left;
+    display: block;
+    width: 150px;
+}
+
+#fechaNac{
+    margin-top: 30px;
+    display: block;
+}
+
+#txt5{
+    display: block;
+    margin-top: 5px;
+    width: 150px;
+}
+
+#rut{
+    float: left;
+    margin-top: 10px;
+    display: block;
+}
+
+#ejemRut{
+    margin-top: 15px;
+    font-size: 10px;
+    margin-left: 70px;
+    display: block;
+}
+
+#txt6{
+    width: 150px;
+    display: block;
+    margin-top: 10px;
+}
+
+#direccion{
+    display: block;
+    margin-top: 10px;
+}
+
+#txt7{
+    display: block;
+    margin-top: 5px;
+    width: 150px;
+}
+
+#contraseña{
+    float: left;
+    display: block;
+    margin-top: 10px;
+
+}
+
+#confirmarContra{
+    float: left;
+    margin-top: 10px;
+    margin-left: 119px;
+    display: block;
+}
+
+#txt8{    
+    float: left;
+    display: block;
+    margin-top: 5px;
+    width: 150px;
+}
+
+#txt9{
+    float: left;
+    display: block;
+    margin-top: 5px;
+    margin-left: 65px ;
+    width: 150px;
+}
+
+#b1{
+    margin-left: 155px;
+    margin-top: 90px;
+    display: block;
+}
